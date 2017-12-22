@@ -11,7 +11,7 @@
 
 	<bean id="disconfMgrBean" class="com.baidu.disconf.client.DisconfMgrBean"
 		destroy-method="destroy">
-		<property name="scanPackage" value="com.hebao.bixiaa.scheduler.config" />
+		<property name="scanPackage" value="org.applesline.scheduler.config" />
 	</bean>
 	<bean id="disconfMgrBean2" class="com.baidu.disconf.client.DisconfMgrBeanSecond"
 		init-method="init" destroy-method="destroy">
