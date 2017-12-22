@@ -2,9 +2,7 @@
 <!-- log4j 2 status：本身的日志级别 monitorInterval：不重启应用的情况下 修改配置文件，在300s(?ms)之后会自动读取新的配置文件 -->
 <Configuration status="info" monitorInterval="300">
 	<properties>
-		<!-- linux环境地址：/data/log/hebaocore 本地测试：C:/Logs -->
 		<property name="LOG_HOME">c:/logs/scheduler</property>
-		<!-- <property name="LOG_HOME">/datadisk/data/log/scheduler</property> -->
 		<property name="FILE_NAME">scheduler</property>
 		<property name="FILE_NAME_ERROR">scheduler_error</property>
 	</properties>
